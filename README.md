@@ -50,6 +50,23 @@ The project leverages the following Python libraries:
 - Training and evaluating various machine learning models
 - Plotting confusion matrices to visualize model performance
 
+
+# Limitations
+
+The **BrainWaveEmotion** project encounters several limitations:
+- **Data Variability:** Emotional responses vary widely among individuals, impacting model generalization.
+- **Hardware Constraints:** The use of a single 8-electrode device may limit spatial resolution and signal quality.
+- **Subjectivity:** Emotion annotation based on stimulus music is subjective and may not fully capture nuanced emotional states.
+- **Model Complexity:** Complex machine learning models may require substantial computational resources and expertise for optimization.
+
+# Sources
+
+The **BrainWaveEmotion** project draws upon the following primary sources:
+- **MNE-Python:** Used for EEG data preprocessing and analysis.
+- **OpenBCI Cyton Board:** Hardware employed for EEG data acquisition.
+- **scikit-learn:** Library utilized for machine learning model implementation and evaluation.
+- **Pandoc:** Tool utilized for converting Markdown to PDF format for project documentation.
+
 ## Extra info
 **Files**: 
    -  annotations.csv, data labeled with full data periods.
