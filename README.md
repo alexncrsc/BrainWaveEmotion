@@ -30,6 +30,36 @@ The project involves the following steps:
 
 8. **Handling Pauses**: 
    - Pauses between stimuli are considered to ensure accurate emotion labeling.
+  
+## Accuracy Results
+
+### Gradient Boost model, 5 seconds long events + ignored labeled data
+- Accuracy: 44%
+
+### SVM model, 5 seconds long events + ignored labeled data
+- Accuracy: 44%
+
+### Random Forest model, 5 seconds long events + ignored labeled data
+- Accuracy: 28%
+
+### SVM, KNN, Gradient Boost models, 2 seconds long events
+- SVM: 30%
+- KNN: 36%
+- Gradient Boost: 56%
+
+### SVM, KNN, Gradient Boost models, 5 seconds long events
+- SVM: 84%
+- KNN: 60%
+- Gradient Boost: 76%
+
+### Random Forest model, 5 seconds long events
+- Accuracy: 68%
+
+### SVM, KNN, Gradient models, 10 seconds long events
+- SVM: 41%
+- KNN: 33%
+- Gradient Boost: 75%
+
 
 ## Key Libraries and Tools
 
@@ -74,13 +104,13 @@ The **BrainWaveEmotion** project draws upon the following primary sources:
    -  annotations3.csv, 2 seconds long events.
    -  annotations4.csv, 10 seconds long events.
    -  data.bdf, recorded data with the Cyton EEG.
-   -  Gradient_boost_5sec_ignore -  Gradient Boost model, 5 seconds long events + ignored labeled data - 0,44%
-   -  SVM_5sec_ignore -  SVM model,  5 seconds long events + ignored labeled data - 0.44%
-   -  Random_forest_5sec_ignore -   Random forest model, 5 seconds long events + ignored labeled data - 0,28%
-   -  SVM_KNN_Gradient_2sec -  SVM KNN Gradient boost models, 2 seconds long events -  SVM-0.3%, KNN-0.36%, Gradient-0.56%
-   -  SVM_KNN_Gradient_5sec -  SVM KNN Gradient boost models, 5 seconds long events - SVM-0.84%, KNN-0.6%, Gradient-0.76%
-   -  Random_forest_5sec -  Random forest model, 5 seconds long events - 0.68%
-   -  SVM_KNN_Gradient -  SVM KNN Gradient models, 10 seconds long events - SVM-0.41%, KNN-0.33%, Gradient-0.75%
+   -  Gradient_boost_5sec_ignore -  Gradient Boost model, 5 seconds long events + ignored labeled data 
+   -  SVM_5sec_ignore -  SVM model,  5 seconds long events + ignored labeled data 
+   -  Random_forest_5sec_ignore -   Random forest model, 5 seconds long events + ignored labeled data 
+   -  SVM_KNN_Gradient_2sec -  SVM KNN Gradient boost models, 2 seconds long events 
+   -  SVM_KNN_Gradient_5sec -  SVM KNN Gradient boost models, 5 seconds long events 
+   -  Random_forest_5sec -  Random forest model, 5 seconds long events 
+   -  SVM_KNN_Gradient -  SVM KNN Gradient models, 10 seconds long events 
 
 ## Repository Content
 
