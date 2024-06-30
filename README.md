@@ -101,8 +101,7 @@ The **BrainWaveEmotion** project draws upon the following primary sources:
 - **scikit-learn:** Library utilized for machine learning model implementation and evaluation.
 - **Pandoc:** Tool utilized for converting Markdown to PDF format for project documentation.
 
-## Extra info
-**Files**: 
+## Files
    -  annotations.csv, data labeled with full data periods.
    -  annotations2.csv, 5 seconds long events.
    -  annotations3.csv, 2 seconds long events.
@@ -116,7 +115,4 @@ The **BrainWaveEmotion** project draws upon the following primary sources:
    -  Random_forest_5sec -  Random forest model, 5 seconds long events 
    -  SVM_KNN_Gradient -  SVM KNN Gradient models, 10 seconds long events 
 
-## Repository Content
-
-This repository serves as a valuable resource for researchers and developers interested in neuroinformatics, affective computing, and EEG-based emotion classification.
 
