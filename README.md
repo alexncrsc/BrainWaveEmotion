@@ -38,14 +38,14 @@ The project involves the following steps:
 - KNN: 60%
 - Gradient Boost: 76%
 
-  ### Random Forest model, 5 seconds long events
+### Random Forest model, 5 seconds long events
 - Accuracy: 68%
 
 ### SVM, KNN, Gradient models, 10 seconds long events
 - SVM: 41%
 - KNN: 33%
 - Gradient Boost: 75%
-- 
+
 ### Gradient Boost model, 5 seconds long events + ignored labeled data
 - Accuracy: 44%
 
