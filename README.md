@@ -50,6 +50,15 @@ The project leverages the following Python libraries:
 - Training and evaluating various machine learning models
 - Plotting confusion matrices to visualize model performance
 
+## Extra info
+**Files**: 
+   -  annotations.csv, data labeled with full data periods.
+   -  annotations2.csv, 5 seconds long events.
+   -  annotations3.csv, 2 seconds long events.
+   -  annotations4.csv, 10 seconds long events.
+   -  data.bdf, recorded data with the Cyton EEG.
+   -  EEG_final_version.ipynb, the jupyter notebook that contains all the code.
+
 ## Repository Content
 
 This repository serves as a valuable resource for researchers and developers interested in neuroinformatics, affective computing, and EEG-based emotion classification.
