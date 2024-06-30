@@ -33,32 +33,36 @@ The project involves the following steps:
   
 ## Accuracy Results
 
-### Gradient Boost model, 5 seconds long events + ignored labeled data
-- Accuracy: 44%
-
-### SVM model, 5 seconds long events + ignored labeled data
-- Accuracy: 44%
-
-### Random Forest model, 5 seconds long events + ignored labeled data
-- Accuracy: 28%
-
-### SVM, KNN, Gradient Boost models, 2 seconds long events
-- SVM: 30%
-- KNN: 36%
-- Gradient Boost: 56%
-
 ### SVM, KNN, Gradient Boost models, 5 seconds long events
 - SVM: 84%
 - KNN: 60%
 - Gradient Boost: 76%
 
-### Random Forest model, 5 seconds long events
+  ### Random Forest model, 5 seconds long events
 - Accuracy: 68%
 
 ### SVM, KNN, Gradient models, 10 seconds long events
 - SVM: 41%
 - KNN: 33%
 - Gradient Boost: 75%
+- 
+### Gradient Boost model, 5 seconds long events + ignored labeled data
+- Accuracy: 44%
+
+### SVM model, 5 seconds long events + ignored labeled data
+- Accuracy: 44%
+
+
+### SVM, KNN, Gradient Boost models, 2 seconds long events
+- SVM: 30%
+- KNN: 36%
+- Gradient Boost: 56%
+
+- ### Random Forest model, 5 seconds long events + ignored labeled data
+- Accuracy: 28%
+
+
+
 
 
 ## Key Libraries and Tools
