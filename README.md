@@ -74,7 +74,13 @@ The **BrainWaveEmotion** project draws upon the following primary sources:
    -  annotations3.csv, 2 seconds long events.
    -  annotations4.csv, 10 seconds long events.
    -  data.bdf, recorded data with the Cyton EEG.
-   -  EEG_final_version.ipynb, the jupyter notebook that contains all the code.
+   -  Gradient_boost_5sec_ignore -  Gradient Boost model, 5 seconds long events + ignored labeled data
+   -  SVM_5sec_ignore -  SVM model,  5 seconds long events + ignored labeled data
+   -  Random_forest_5sec_ignore -   Random forest model, 5 seconds long events + ignored labeled data
+   -  SVM_KNN_Gradient_2sec -  SVM KNN Gradient boost models, 2 seconds long events 
+   -  SVM_KNN_Gradient_5sec -  SVM KNN Gradient boost models, 5 seconds long events
+   -  Random_forest_5sec -  Random forest model, 5 seconds long events 
+   -  SVM_KNN_Gradient_10sec -  SVM KNN Gradient models, 10 seconds long events
 
 ## Repository Content
 
