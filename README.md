@@ -13,7 +13,7 @@ The project involves the following steps:
    - Raw EEG data is loaded and processed using MNE to remove accelerometer channels (Accel X, Y, Z) and annotate emotional states.
 
 3. **Annotation Handling**: 
-   - Annotations are loaded from a CSV file, converted to appropriate units, and filtered to exclude 'ignore' states.
+   - Annotations are loaded from a CSV file, converted to appropriate units, and filtered to exclude 'ignore' states but also to include it.
 
 4. **Event Generation**: 
    - Events are generated based on the annotated emotional states ('happy', 'sad', 'ignore') with corresponding onset times.
